@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:text=""
+        android:id="@+id/video_delete_title"
+        android:layout_marginStart="10dp"
+        android:alpha="0.8"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget"
+        android:textAlignment="viewStart"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_width="308dp"
+        android:textColor="@color/black"
+        android:layout_height="40dp" />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_action_discard"
+        android:id="@+id/delete1"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:background="@android:color/holo_orange_light" />
+
+</LinearLayout>

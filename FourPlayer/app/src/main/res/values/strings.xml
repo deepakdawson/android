@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Four Player</string>
+    <string name="audio"> Audio</string>
+    <string name="video"> Video</string>
+    <string name="audio_rec"> Audio Rec</string>
+    <string name="video_rec"> Video Rec</string>
+    <string name="title_activity_audio">Audio</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_music_player">MusicPlayer</string>
+    <!-- media player error -->
+    <string name="media_player_error"> An internal error occurred.
+    Media Player stopped</string>
+    <string name="title_activity_music_player1">MusicPlayer1</string>
+    <string name="record_audio_play_dialog_name"> Recorded Sound</string>
+    <string name="record_audio_play_lis_name"> Recorded Sound</string>
+    <string name="content_des_record_play"> Record</string>
+    <string name="four_in_one"> Four In One </string>
+    <string name="about"> About </string>
+    <string name="title_activity_about">About</string>
+    <string name="about_dialog"> This project is under directed by Sir Prateek Saxena.
+    and this is created by two member team.</string>
+</resources>

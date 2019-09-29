@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jackdawson.fourplayer.Video">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video_list"
+        android:background="@android:color/holo_orange_light"
+        android:dividerHeight="0dp"
+        android:clickable="false"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="15dp"
+        android:fastScrollAlwaysVisible="false"
+        android:fastScrollEnabled="false"
+        android:focusable="false" />
+</RelativeLayout>

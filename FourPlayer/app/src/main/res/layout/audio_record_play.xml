@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="160dp">
+
+
+    <TextView
+        android:text="@string/record_audio_play_dialog_name"
+        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/light_red"
+        android:layout_height="20dp" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/record_audio_seekbar"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/record_audio_title"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_play_white_36dp"
+        android:id="@+id/audio_record_play"
+        android:visibility="visible"
+        android:contentDescription="@string/content_des_record_play"
+        android:background="@color/colorAccent" />
+
+
+</LinearLayout>

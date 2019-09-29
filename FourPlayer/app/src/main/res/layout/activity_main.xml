@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jackdawson.fourplayer.MainActivity"
+    android:background="@android:color/holo_red_light">
+
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/video_player"
+        android:layout_alignTop="@+id/AudioButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="82dp"
+        android:id="@+id/VideoButton"
+        android:scaleType="fitXY"
+        android:background="@android:color/holo_red_light" />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/music_player"
+        android:layout_marginTop="60dp"
+        android:id="@+id/AudioButton"
+        android:scaleType="fitXY"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginStart="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/video_recordr"
+        android:layout_alignTop="@+id/Audio_rec_button"
+        android:layout_alignEnd="@+id/VideoButton"
+        android:id="@+id/video_record"
+        android:scaleType="fitXY"
+        android:background="@android:color/holo_red_light" />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/microphone"
+        android:id="@+id/Audio_rec_button"
+        android:background="@android:color/holo_red_light"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/AudioButton" />
+
+    <TextView
+        android:text="@string/four_in_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:id="@+id/four_in_one"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_below="@+id/Audio_rec_button"
+        android:layout_toEndOf="@+id/Audio_rec_button" />
+
+</RelativeLayout>
